@@ -3,7 +3,6 @@
 
 #include <chrono>
 #include "utilities.h"
-#define MPREC 2
 #define directory "GPU"
 
 __global__ void computePiLeibniz(multi_prec<MPREC> *PI, int iterations)

@@ -9,7 +9,8 @@
 #include <gmp.h>
 #include <filesystem>
 #define ull unsigned long long
-const multi_prec<2> PI = multi_prec<2>("314159265358979323846264338327") / multi_prec<2>("100000000000000000000000000000");
+#define MPREC 2
+const multi_prec<MPREC> PI = multi_prec<MPREC>("314159265358979323846264338327") / multi_prec<MPREC>("100000000000000000000000000000");
 
 namespace fs = std::filesystem;
 

@@ -4,7 +4,6 @@
 #include <chrono>
 #include <thread>
 #include "utilities.h"
-#define MPREC 2
 #define ull unsigned long long
 
 string isHT()
