@@ -35,3 +35,6 @@ clear_txt:
 
 run_converter:
 	python3 converter.py
+
+run_table:
+	python3 table.py
